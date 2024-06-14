@@ -5,7 +5,7 @@ st.title("📽️ 视频脚本生成器")
 
 with st.sidebar:
     openai_base_url = st.text_input("API 基础URL:",value="https://free.gpt.ge/v1")
-    openai_api_key = st.text_input("请输入OpenAI API 密钥:",type="password",value="sk-6Ghj6HzVcpCZ9tPpCd63526512Ca4523Ab25F19f3d77AeB0")
+    openai_api_key = st.text_input("请输入OpenAI API 密钥:",type="password")
     st.markdown("[获取api密钥链接](https://platform.openai.com/account/api-keys)")
 
 shubject = st.text_input("💡 请输入视频主题:")
