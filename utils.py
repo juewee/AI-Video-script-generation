@@ -51,4 +51,4 @@ def generate_script(subject, video_length, creativity,api_key):
     return search_result, title, script
 
 # 调用函数
-print(generate_script(subject="人工智能", video_length=2, creativity=0.7,api_key=ChatGPTConfig.api_key))
+# print(generate_script(subject="人工智能", video_length=2, creativity=0.7,api_key=ChatGPTConfig.api_key))
