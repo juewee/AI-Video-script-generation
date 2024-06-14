@@ -33,3 +33,9 @@ pip install langchain langchain_openai langchain_community streamlit
 ```gitignore
 venv/
 ```
+
+### 新建文件`utils.py`用于存储工具函数
+#### 
+```python
+
+```
